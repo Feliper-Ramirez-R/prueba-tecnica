@@ -1,0 +1,27 @@
+.text-container {
+    position: relative;
+    display: inline-block; /* O usa 'block' dependiendo de tu layout */
+  }
+  
+  .background-image {
+    display: block;
+    width: 100%; /* Asegúrate de que la imagen cubra el contenedor */
+  }
+  
+  .text-background {
+    position: absolute;
+    top: 75%; /* Centra el texto verticalmente */
+    left: 50%; /* Centra el texto horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste fino del centro */
+    background: rgb(255 255 255 / 87%);/* Fondo blanco semi-transparente */
+    color: rgb(21, 87, 174); /* Color del texto */
+    padding: 10px 20px; /* Espaciado alrededor del texto */
+    border-radius: 10px; /* Bordes redondeados */
+    font-size: 20px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+  }
+  
+  
+  .progress{
+    height: 8px;
+  }
